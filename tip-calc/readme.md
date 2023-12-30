@@ -9,7 +9,7 @@ by Aaron Varga
 - Calculate total bill based on user input
 - Print/save PDF of receipt
 - Optional email receipt to user
-- Save receipt to "receipt book"
+- Save receipt to "Receipt Book" page
 - View analytics on user spending (previous receipt data and observed trends)
 - Ability to actually send total bill payments to merchants via Cashapp, Stripe, etc.
 - Recommended tipping options/suggestions when paying a specific service/industry
