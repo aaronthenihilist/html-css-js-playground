@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+main {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+#firstNameFormResults {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form, #firstNameFormResults {
+    margin-top: 2rem;
+}
+
+input, button {
+    padding: .5rem 1rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+.errorMsg {
+    color: red;
+    font-size: .75rem;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    display: none;
+}

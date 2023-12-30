@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML, CSS, JS Playground: Form Interaction</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Form Interactivity Playground</h1>
+      <p>Code by Aaron Varga</p>
+      <form action="" id="firstNameForm">
+        <label for="first-name">First Name:</label>
+        <br /><br />
+        <input
+          type="text"
+          name="first-name"
+          id="firstNameInput"
+          placeholder="Enter first name"
+        />
+        <button type="submit" id="submitFirstNameBtn">Save</button>
+        <p class="errorMsg" id="firstNameErrorMsg">
+          Please enter your first name to save info.
+        </p>
+      </form>
+      <div id="firstNameFormResults">
+        <p id="firstNameOutput">Name</p>
+        <a href="#" class="editBtn" id="firstNameEditBtn">Edit</a>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
