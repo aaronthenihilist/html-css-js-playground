@@ -1,21 +1,13 @@
-function logger(name) {
-  console.log(`My name is ${name}`);
+// function declaration
+function calcAge1(birthYear) {
+  return 2023 - birthYear;
 }
+const age1 = calcAge1(1989);
+console.log(age1);
 
-const myName = "Aaron";
-
-logger(myName);
-
-function addTwoNumbers(firstNumber, secondNumber) {
-  const mathProblemResult = `${firstNumber} + ${secondNumber} = ${
-    firstNumber + secondNumber
-  }`;
-  return mathProblemResult;
-}
-
-console.log(addTwoNumbers(10, 10));
-
-const tenPlusTen = addTwoNumbers(10, 10);
-console.log(tenPlusTen);
-
-const num = Number("10");
+// function expression
+const calcAge2 = function (birthYear) {
+  return 2023 - birthYear;
+};
+const age2 = calcAge2(1989);
+console.log(age1, age2);
