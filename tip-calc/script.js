@@ -22,6 +22,8 @@ calcBtn.addEventListener("click", function (e) {
     let tipInput = document.querySelector("#tip");
     let tip = tipInput.value;
     let tipValue = document.querySelector("#tip-value");
+    // attempted to remove decimal point from tip value for display purposes
+    // need to add in functionality to recognize if user enters .5 it will output to html as "50%" instead of "5%"
     tipValue.innerHTML = tip.replace(".", "") * 1 + "%";
 
     let totalTip = bill * tip;
