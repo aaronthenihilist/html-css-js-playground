@@ -1,3 +1,1 @@
-# Tip Calculator
-
-by Aaron Varga
+# Aaron Varga's HTML, CSS, JS Playground :)
