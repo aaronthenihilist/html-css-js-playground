@@ -18,3 +18,4 @@ by Aaron Varga
 - Send receipts via email
 - Generate CSV files from data
 - Your tip compared to other user's average tips (see how you compare with the average tip - are you a low baller or a big spender with lots of money to give?)
+- Send bills to customers on the spot after services are rendered
